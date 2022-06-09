@@ -1,13 +1,15 @@
-* { /* Universal selector, clearing padding and margins */
+* {
+    /* Universal selector, clearing padding and margins */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 /*  body color is gray */
 body {
     background-color: #d9dcd6;
 }
- 
+
 /* color a  */
 a {
     color: #ffffff;
@@ -44,7 +46,7 @@ p {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 /* header block list fone style  */
@@ -105,7 +107,7 @@ p {
 }
 
 /* container benefit-brand margin bott and color */
-.benefit-brand  {
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -234,13 +236,13 @@ p {
 
 /* adjust size ul list and ul element */
 @media screen and (max-width: 600px) {
-    .header div ul{
-      float: none;
-      width: 10%;
+    .header div ul {
+        float: none;
+        width: 10%;
     }
 
-    .header div ul li{
-      float: none;
-      width: 10%; 
+    .header div ul li {
+        float: none;
+        width: 10%;
     }
 }
