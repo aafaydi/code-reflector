@@ -103,9 +103,8 @@ The Output
 With the research, application of concepts, and specific changes made to the files, we were able to ensure an accesible, efficient, and easy to read project.
 
 Installation
-The project was uploaded to GitHub at the following repository: https://github.com/jorguzman100/01_Code_Refactor_JGR
-
-You can access the deployed application with the GitHup Pages link: https://jorguzman100.github.io/01_Code_Refactor_JGR/
+The project was uploaded to GitHub at the following repository: https://github.com/aafaydi/code-reflector
+You can access the deployed application with the GitHup Pages link: https://aafaydi.github.io/code-reflector/
 
 References
 Code refactoring
