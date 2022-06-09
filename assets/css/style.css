@@ -1,13 +1,25 @@
-* {
+* { /* Universal selector, clearing padding and margins */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*  body color is gray */
 body {
     background-color: #d9dcd6;
 }
  
+/* color a  */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* P font text size */
+p {
+    font-size: 16px;
+}
+
+/* header font bk color and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,67 +27,66 @@ body {
     color: #ffffff;
 }
 
+/* header block fone size  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* color seo in gray */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* header block fone size  */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 20px; 
 }
 
-.header div ul {
+/* header block list fone style  */
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* header block list element fone style  */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
+/* Main block here style size color postion */
+.meetingMainImage {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    background: url("../images/digital-marketing-meeting.jpg") center / cover;
 }
 
+/* postion left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* postion right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* style size and postion */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* container benefit style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,54 +98,65 @@ p {
     background-color: #2589bd;
 }
 
+/* container benefit-lead margin bott and color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* container benefit-brand margin bott and color */
+.benefit-brand  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* container benefit-cost margin bott and color */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* container benefit-lead h3 margin bott and postion */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* container benefit-brad margin bott and position */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* container benefit-lead margin bott and position */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* container benefit-lead image display margin and maxwidth */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+
+/* container benefit-brand image display margin and maxwidth */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* container benefit-cost image display margin and maxwidth */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* style id search-engine-optimization  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -144,6 +166,7 @@ p {
     color: #ffffff;
 }
 
+/* style id online-reputation-management  */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,6 +176,7 @@ p {
     color: #ffffff;
 }
 
+/* style id social-media-marketing  */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,33 +186,40 @@ p {
     color: #ffffff;
 }
 
+/* id search-engine-optimization  img  max height */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* id online-reputation-management img  max height */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* id social-media-marketing max height */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* search-engine-optimization  h2 margin bott and text size */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* online-reputation-management  h2 margin bott and text size */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* social-media-marketing  h2 margin bott and text size */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* footor styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -196,11 +227,13 @@ p {
     text-align: center;
 }
 
+/* footor h2 styling */
 .footer h2 {
     font-size: 20px;
 }
 
-/* @media screen and (max-width: 600px) {
+/* adjust size ul list and ul element */
+@media screen and (max-width: 600px) {
     .header div ul{
       float: none;
       width: 10%;
@@ -210,4 +243,4 @@ p {
       float: none;
       width: 10%; 
     }
-} */
+}
